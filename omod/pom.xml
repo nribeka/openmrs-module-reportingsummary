@@ -30,14 +30,24 @@
 			<artifactId>${project.parent.artifactId}-api</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
-		
-				
-		<dependency>
-			<groupId>org.openmrs.module</groupId>
-			<artifactId>reporting</artifactId>
-		</dependency>
-						
-		<!-- End OpenMRS modules -->
+
+
+        <dependency>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>reporting</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>serialization.xstream-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>htmlwidgets</artifactId>
+        </dependency>
+
+        <!-- End OpenMRS modules -->
 
 		<!-- Begin OpenMRS core -->
 

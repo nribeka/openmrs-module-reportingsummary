@@ -16,10 +16,10 @@
                   column="definition" not-null="true"/>
 
         <many-to-one name="generatedBy" class="org.openmrs.User" not-null="true">
-            <column name="creator"/>
+            <column name="generated_by"/>
         </many-to-one>
 
-        <property name="generatedOn" type="java.util.Date" column="date_created" not-null="true" length="19"/>
+        <property name="generatedOn" type="java.util.Date" column="generated_on" not-null="true" length="19"/>
 
         <many-to-one name="creator" class="org.openmrs.User" not-null="true">
             <column name="creator"/>

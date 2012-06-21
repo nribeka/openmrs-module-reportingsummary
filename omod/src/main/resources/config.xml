@@ -38,8 +38,8 @@
 	
 	<!-- Maps hibernate file's, if present -->
 	<mappingFiles>
-				
-		Summary.hbm.xml
+
+        InvertedIndex.hbm.xml
 				
 	</mappingFiles>
 

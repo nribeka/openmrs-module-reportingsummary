@@ -11,20 +11,11 @@
  *
  * Copyright (C) OpenMRS, LLC.  All Rights Reserved.
  */
-package org.openmrs.module.reportingsummary.api;
 
-import static org.junit.Assert.*;
-import org.junit.Test;
-import org.openmrs.api.context.Context;
-import org.openmrs.module.reportingsummary.api.service.SummaryService;
-import org.openmrs.test.BaseModuleContextSensitiveTest;
+package org.openmrs.module.reportingsummary.reporting.dataset;
 
-/**
- */
-public class  SummaryServiceTest extends BaseModuleContextSensitiveTest {
-	
-	@Test
-	public void shouldSetupContext() {
-		assertNotNull(Context.getService(SummaryService.class));
-	}
+import org.openmrs.module.reporting.dataset.definition.BaseDataSetDefinition;
+
+
+public class PatientSummaryDataSetDefinition extends BaseDataSetDefinition {
 }
